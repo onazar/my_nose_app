@@ -19,10 +19,14 @@ profiles:
       MY_PROFILE: "first"
     :tests:
     - type: nosetests
+      name: my_my_number_test_my
       mode: basic
       output: exit-status
       files:
         - "test/number_test.py"
+        - "test/some_test.py"
+        - "test/number_test2.py"
+        - "test/myunit_app_test2.py"
 
   second:
     environment:
