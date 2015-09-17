@@ -1,3 +1,3 @@
 def setupPackage():
-    foo = open("some_file_that_doesn't_exist", "r")
+    foo = oen("some_file_that_doesn't_exist", "r")
 
